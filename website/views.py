@@ -27,6 +27,12 @@ def blog():
     posts = Post.query.order_by(Post.date_created.desc()).paginate(page=page, per_page=4)
     return render_template("blog.html", user=current_user, posts=posts)
 
+@views.route("/events")
+def events():
+    # Query all posts from the database
+    posts = Post.query.all()
+    return render_template("events.html", user=current_user, posts=posts)
+
 # Route for creating a post
 @views.route("/create-post", methods=['GET', 'POST'])
 @login_required
