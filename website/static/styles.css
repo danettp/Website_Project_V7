@@ -31,7 +31,7 @@ html, body {
 }
 
 .navbar {
-  background-color: #556B2F;
+  background-color:	#556B2F;
   height: 4rem;
   margin-bottom: 10px;
 }
@@ -112,6 +112,9 @@ html, body {
 }
 /* rtl:end:ignore */
 
+.card-body{
+  height: 150px;
+}
 
 .image-container {
   width: 140px;
