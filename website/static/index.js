@@ -18,3 +18,4 @@ function like(postId) {
       })
       .catch((e) => alert("Could not like post.")); // Display an alert if liking the post fails
   }
+
