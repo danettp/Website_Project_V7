@@ -31,7 +31,7 @@ html, body {
 }
 
 .navbar {
-  background-color:	#556B2F;
+  background-color:	#5072A7;
   height: 4rem;
   margin-bottom: 10px;
 }
@@ -144,6 +144,9 @@ html, body {
   letter-spacing: -.05rem;
 }
 
+.text-colour{
+  color: #5072A7;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
